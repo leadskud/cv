@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Никита Кудрин — Руководитель внедрения ИИ · Развитие бизнеса AI- и IT-решений · LLM, автоматизация, инфраструктура</title>
+<meta name="description" content="Руководитель внедрения ИИ и развития бизнеса AI- и IT-решений: LLM, автоматизация процессов, собственная AI-инфраструктура, B2B-продажи.">
+<meta property="og:title" content="Никита Кудрин — внедрение ИИ · развитие бизнеса AI/IT">
+<meta property="og:description" content="Руководитель внедрения ИИ и развития бизнеса AI- и IT-решений: LLM, автоматизация процессов, собственная AI-инфраструктура, B2B-продажи.">
+<meta property="og:type" content="profile">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%238c2318%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-family=%27Georgia,serif%27 font-size=%2734%27 fill=%27%23fffdf9%27 text-anchor=%27middle%27%3E%D0%9D%D0%9A%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f4ee; --paper:#fffdf9; --ink:#1b1815; --mut:#6d655c; --hair:#ddd5c8;
+  --rule:#1b1815; --acc:#8c2318;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --bg:#16140f; --paper:#1d1a15; --ink:#ece6dc; --mut:#a49a8c; --hair:#332e26; --rule:#ece6dc; --acc:#e2705c; }
+}
+*{box-sizing:border-box;margin:0;padding:0;border-radius:0}
+html{scroll-behavior:smooth}
+body{font:16px/1.7 "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
+  background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 34px}
+/* --- шапка: имя антиквой, лид крупным кеглем, асимметрия --- */
+header{padding:80px 0 34px;border-bottom:1px solid var(--rule)}
+h1{font-family:Georgia,"Liberation Serif","Times New Roman",serif;font-size:64px;line-height:1;
+  letter-spacing:-1.4px;font-weight:400}
+.role{margin-top:16px;font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mut)}
+.sum{margin-top:30px;max-width:36em;font-size:17.5px;line-height:1.72;color:var(--ink)}
+.sum b{font-weight:700}
+.contacts{margin-top:34px;display:flex;flex-wrap:wrap;gap:8px 26px;font-size:13.5px;
+  letter-spacing:.03em;color:var(--mut);padding-top:16px;border-top:1px solid var(--hair)}
+.contacts a{color:var(--acc);text-decoration:none;border-bottom:1px solid var(--acc);font-weight:600}
+/* --- секции: рубрика на полях --- */
+section{padding:56px 0 0}
+h2{font-family:Georgia,"Liberation Serif","Times New Roman",serif;font-size:15px;font-weight:400;
+  font-style:italic;letter-spacing:0;text-transform:none;color:var(--acc);
+  padding-bottom:10px;border-bottom:1px solid var(--rule);margin-bottom:0}
+/* --- метрики: выносные цифры, как врезки в журнале --- */
+.grid{display:block;max-width:52em}
+.metric{background:none;border:0;border-top:1px solid var(--hair);border-radius:0;padding:24px 0 26px;display:grid;grid-template-columns:minmax(0,13rem) 1fr;gap:36px;align-items:baseline}
+.metric b{display:block;text-wrap:balance;font-family:Georgia,"Liberation Serif","Times New Roman",serif;
+  font-size:31px;font-weight:400;letter-spacing:-.5px;color:var(--acc);line-height:1.15}
+.metric span{display:block;margin-top:0;font-size:14px;color:var(--mut);line-height:1.6}
+/* --- опыт: дата висит на полях, текст с воздухом --- */
+.job{display:grid;grid-template-columns:minmax(0,11rem) 1fr;gap:34px;padding:30px 0;
+  border-bottom:1px solid var(--hair);margin:0;position:static;border-left:0}
+.job:before{display:none}
+.job .dates{grid-column:1;font-size:12.5px;letter-spacing:.06em;color:var(--mut);padding-top:9px}
+.job h3{grid-column:2;font-family:Georgia,"Liberation Serif","Times New Roman",serif;
+  font-size:25px;font-weight:400;letter-spacing:-.3px;line-height:1.2;margin:0}
+.job .org{grid-column:2;margin-top:6px;font-size:12px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--mut)}
+.job p{grid-column:2;margin-top:16px;color:var(--ink);font-size:15.5px;max-width:34em}
+.job ul{grid-column:2;margin:16px 0 0;padding-left:0;list-style:none;max-width:36em}
+.job li{margin-bottom:11px;padding-left:22px;position:relative;font-size:15px;color:var(--ink)}
+.job li:before{content:"—";position:absolute;left:0;top:0;color:var(--acc)}
+.job i{font-style:italic;font-family:Georgia,"Liberation Serif",serif;color:var(--acc);font-size:15px}
+/* --- навыки: набор в подбор, разделитель вместо пилюль --- */
+.chips{display:block;max-width:52em;font-size:15px;line-height:2}
+.chip{display:inline;background:none;color:var(--ink);border-radius:0;padding:0;font-weight:400;font-size:15px}
+.chip:not(:last-child):after{content:" · ";color:var(--acc);font-weight:700}
+.note{margin-top:32px;font-family:Georgia,"Liberation Serif",serif;font-style:italic;font-size:15px;
+  color:var(--mut);background:none;border:0;border-left:2px solid var(--acc);border-radius:0;
+  padding:6px 0 6px 22px;max-width:34em}
+.cta{display:inline-block;margin-top:12px;background:var(--acc);color:#fff8f0;text-decoration:none;
+  border-radius:0;padding:15px 34px;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+footer{margin:64px 0 52px;padding-top:22px;border-top:1px solid var(--rule);color:var(--mut);
+  font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (max-width:720px){
+  h1{font-size:38px}
+  .job{grid-template-columns:1fr;gap:8px}
+  .job .dates,.job h3,.job .org,.job p,.job ul{grid-column:1}
+}
+@media print{
+  @page{size:A4;margin:15mm 14mm}
+  body{font-size:9.5pt;line-height:1.45;background:#fff;color:#000}
+  .wrap{max-width:none;padding:0}
+  header{padding:0 0 12pt}
+  h1{font-size:26pt}.sum{font-size:10pt;margin-top:12pt;max-width:none}
+  section{padding:15pt 0 0}
+  h2{font-size:11pt}
+  .metric span,.job p,.job ul,.note,.chips,.sum{max-width:none}
+  .grid{max-width:none}
+  .metric,.job{padding:8pt 0;break-inside:avoid;page-break-inside:avoid}
+  .metric b{font-size:16pt}
+  .job h3{font-size:13pt}
+  .cta{display:none}
+  a{color:#000}
+  footer{margin:18pt 0 0}
+}
+
+/* --- четвёртый вариант: плотность, навигация, разведённые подзаголовки --- */
+body{font-size:15.5px;line-height:1.62}
+section{padding:38px 0 0}
+header{padding:64px 0 26px}
+h1{font-size:58px}
+.sum{margin-top:24px;max-width:38em;font-size:17px;line-height:1.66}
+.head{display:grid;grid-template-columns:1fr minmax(0,232px);gap:44px;align-items:start}
+.portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 18%;display:block;
+  border:1px solid var(--hair);filter:saturate(.96)}
+.role{max-width:none}
+.sum p+p{margin-top:14px}
+.grid{max-width:none}
+.metric{padding:14px 0;grid-template-columns:minmax(0,13.5rem) 1fr;gap:38px}
+.metric b{font-size:20px;letter-spacing:-.2px;line-height:1.25}
+.metric span{line-height:1.55;max-width:74ch}
+.job{padding:22px 0;gap:34px}
+.job .jbody{grid-column:2}
+.job h3,.job .org,.job p,.job ul{grid-column:auto}
+.job h3{font-size:23px}
+.job p{margin-top:9px;color:var(--mut);max-width:44em;font-size:15.5px}
+.job ul{margin-top:11px;max-width:44em}
+.job li{margin-top:7px;margin-bottom:0}
+.metric{grid-template-columns:minmax(0,15.5rem) 1fr}
+.wrap{max-width:1000px}
+.job,section{scroll-margin-top:56px}   /* иначе липкая шапка накрывает заголовок при переходе */
+.sub{margin-top:16px;font-family:Georgia,"Liberation Serif",serif;font-style:italic;
+  font-size:14.5px;color:var(--acc);letter-spacing:.01em}
+.sub b{font-weight:400}
+nav.top{position:sticky;top:0;z-index:9;background:var(--bg);border-bottom:1px solid var(--hair);
+  font-size:12.5px;letter-spacing:.04em}
+nav.top .wrap{display:flex;flex-wrap:wrap;gap:6px 22px;padding-top:11px;padding-bottom:11px}
+nav.top a{color:var(--mut);text-decoration:none}
+nav.top a:hover{color:var(--acc)}
+nav.top a.me{color:var(--ink);font-weight:700}
+.jump{margin:0 0 4px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12.5px;color:var(--mut);
+  padding-bottom:14px;border-bottom:1px solid var(--hair)}
+.jump a{color:var(--acc);text-decoration:none;border-bottom:1px solid transparent}
+.jump a:hover{border-bottom-color:var(--acc)}
+@media (max-width:760px){
+  .job{display:block}
+  .job .dates{padding-top:0;margin-bottom:6px}
+  .metric{display:block}
+  .metric span{margin-top:6px}
+  h1{font-size:40px}
+  nav.top{position:static}
+  .head{grid-template-columns:1fr;gap:18px}
+  .portrait{width:132px;aspect-ratio:1/1;object-position:50% 16%}
+}
+@media print{
+  @page{size:A4;margin:11mm 11mm}
+  nav.top,.jump,.cta{display:none}
+  body{font-size:11px;line-height:1.38}
+  header{padding:0 0 8px}
+  h1{font-size:28px}
+  h2{font-size:12px;padding-bottom:5px}
+  section{padding:12px 0 0}
+  .wrap{padding:0;max-width:none}
+  .sum{font-size:11.5px;line-height:1.42;max-width:none;margin-top:10px}
+  .sum p+p{margin-top:7px}
+  .contacts{margin-top:12px;padding-top:8px}
+  .head{grid-template-columns:1fr minmax(0,120px);gap:20px}
+  .grid{max-width:none}
+  .metric{display:grid;grid-template-columns:minmax(0,9.5rem) 1fr;gap:16px;padding:5px 0}
+  .metric b{font-size:13px}
+  .metric span{max-width:none;line-height:1.4}
+  .job{display:block;padding:9px 0;break-inside:avoid;page-break-inside:avoid}
+  .job .dates{display:inline;font-size:10px;color:#444}
+  .job h3{font-size:14.5px;display:inline;margin-left:8px}
+  .job .org{margin-top:2px}
+  .job p,.job ul,.metric span,.sum,.grid{max-width:none}
+  .job p{margin-top:5px}
+  .job ul{margin-top:6px}
+  .job li{margin-top:2px}
+  .sub{margin-top:8px;font-size:11px}
+  a{color:#000}
+}
+.sum p b{font-weight:600}
+.alt{font-size:12.5px;color:var(--mut)}
+.alt a{color:var(--acc)}
+</style>
+</head>
+<body id="top">
+<nav class="top"><div class="wrap"><a class="me" href="#top">Никита Кудрин</a><a href="#facts">Кратко</a><a href="#exp">Опыт</a><a href="#skills">Навыки</a><a href="#edu">Образование</a><a href="mailto:nikita@kudrin.net?subject=Внедрение ИИ / развитие бизнеса AI — обсудить роль">Написать</a></div></nav>
+<header>
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h1>Никита Кудрин</h1>
+        <div class="role">Руководитель внедрения ИИ · Развитие бизнеса AI- и IT-решений · LLM, автоматизация, инфраструктура</div>
+        <div class="sum">
+    <p>Руковожу внедрением ИИ (AI-трансформацией) в процессах продаж, исследований и привлечения и довожу его до работающей системы: от выбора модели и железа до интеграции с CRM и метрик. На моём контуре бриф по компании стоит <b>27,65 ₽ прямых расходов и ~55 минут</b> вместо 4–8 дней аналитика, <b>93% вызовов моделей исполняются локально</b> — данные остаются внутри периметра. Продаю такие решения в B2B и знаю цикл сложной IT-сделки изнутри.</p>
+    <p><b>Своя AI- и серверная платформа.</b> Держу собственную инфраструктуру на Proxmox: виртуальные машины и контейнеры, локальные модели на своих GPU через vLLM и OpenAI-совместимый API, мониторинг, сети, секреты, бэкапы. Сдаю свободные GPU-мощности в аренду, поэтому понимаю GPU-облако с двух сторон — как потребитель и как хостер.</p>
+    <p><b>Исследования и автоматизация на ИИ.</b> Построил исследовательский движок на локальных моделях: около 90 исследований и разборы почти 40 крупных компаний и групп. Собственные AI-агенты для SEO, рекламы, текстов, лендингов, презентаций и исследований.</p>
+    <p><b>B2B-продажи сложных IT-услуг.</b> Десять лет строил контур привлечения IT-аутстаффинг-холдинга: компании из <b>171 страны</b>, до договорных стадий дошли <b>Microsoft, NVIDIA, Deloitte, Huawei, Lenovo</b>, <b>258 компаний доведены до производства</b>, бюджет контура — <b>до 25 млн ₽/год</b>. Считаю экономику решения так же, как экономику канала: отключаю то, что не окупается.</p>
+        </div>
+      </div>
+      <div>
+        <img class="portrait" src="../portrait.png" alt="Никита Кудрин">
+      </div>
+    </div>
+    <div class="contacts">
+      <a href="mailto:nikita@kudrin.net">nikita@kudrin.net</a>
+      <a href="nikita-kudrin-cv-ai.pdf">Скачать PDF</a>
+      <a href="https://hh.ru/resume/b4cd6ddcff1168184a0039ed1f4e4f57636949">Резюме на hh.ru</a>
+      <span>Москва / удалённо · полная или частичная занятость</span>
+    </div>
+  </div>
+</header>
+
+<section id="facts"><div class="wrap">
+  <h2>Кратко</h2>
+  <div class="grid">
+    <div class="metric"><b>27,65 ₽ и ~55 минут</b><span>бриф по компании на собственном AI-контуре вместо 4–8 дней работы аналитика</span></div>
+    <div class="metric"><b>93% вызовов локально</b><span>модели работают на своих GPU через vLLM — данные клиента остаются внутри периметра</span></div>
+    <div class="metric"><b>171 страна в контуре</b><span>десять лет B2B-привлечения IT-аутстаффинг-холдинга: до договорных стадий дошли Microsoft, NVIDIA, Deloitte, Huawei, Lenovo</span></div>
+    <div class="metric"><b>258 компаний</b><span>доведены до производства из контура привлечения; бюджет контура — до 25 млн ₽ в год</span></div>
+  </div>
+</div></section>
+
+<section id="exp"><div class="wrap">
+  <h2>Опыт</h2>
+  <div class="jump"><a href="#job0">Собственная AI- и серверная платформа</a><a href="#job1">IT-аутстаффинг-холдинг</a><a href="#job2">WhatWhere</a><a href="#job3">Чойстер</a><a href="#job4">TEL / NTHost</a><a href="#job5">Клиентские проекты: performance</a><a href="#job6">Промышленность и строительство</a></div>
+  <div class="job" id="job0">
+    <div class="dates">2024 — настоящее время</div>
+    <div class="jbody">
+      <h3>Основатель, архитектор и руководитель внедрения ИИ</h3>
+      <div class="org">Собственная AI- и серверная платформа, GPU-хостинг (ИП, параллельно)</div>
+      <p>Руковожу внедрением ИИ в собственных бизнес-процессах: спроектировал и эксплуатирую инфраструктуру, на которой работают исследовательские пайплайны, B2B-аналитика, генерация контента и сдача GPU в аренду. Работы веду сам и через собственных AI-агентов: они ведут часть рутинной эксплуатации по ранбукам, решения и приёмка — на мне.</p>
+      <div class="sub"><b>Что построил:</b></div>
+      <ul>
+        <li><b>Виртуализация:</b> Proxmox VE — виртуальные машины и LXC-контейнеры, проброс GPU в виртуальные машины, перенос рабочих машин с VMware на Proxmox, резервное копирование. Серверные платформы Supermicro и Intel с процессорами Xeon, удалённое управление через IPMI/BMC, сетевая загрузка (PXE).</li>
+        <li><b>LLM-инференс:</b> vLLM с открытыми моделями семейства Qwen (27–35B, тензорный параллелизм на двух GPU, квантизация INT8), OpenAI-совместимый API для своих сервисов; рядом — распознавание речи, синтез речи и модели зрения. Переключение профилей GPU под задачи.</li>
+        <li><b>Мониторинг и эксплуатация:</b> VictoriaMetrics, Grafana, Loki, Alertmanager, метрики GPU (DCGM) и серверов; учёт активов и сервисов в NetBox, секреты в Infisical, автоматизация через Ansible. После инцидента вынес мониторинг с наблюдаемого хоста — разбираю отказы до причины и записываю ранбук.</li>
+        <li><b>Сети:</b> маршрутизаторы MikroTik, сегментация офисной сети, туннели WireGuard между площадками, выходы в интернет из нескольких стран для сбора данных так, как их видит местный пользователь.</li>
+        <li><b>GPU-хостинг:</b> сдаю свободные мощности на маркетплейсах Clore.ai и Qudata и виртуальные машины на Proxmox с доступом к GPU под ComfyUI и другие задачи; свои Docker-образы для генерации, ценообразование и разбор 33 площадок аренды GPU.</li>
+        <li><b>Исследовательский движок на локальных моделях:</b> поиск по Google и Яндексу, чтение сайтов, Telegram, YouTube, LinkedIn, hh; проверка цитат по источнику и судьи качества на моделях. Около 90 исследований, разборы почти 40 крупных компаний и групп (банки, госкомпании, ритейл, телеком), бриф по компании — 27,65 ₽ прямых расходов и ~55 минут.</li>
+        <li><b>Браузерная автоматизация:</b> парк браузеров Playwright для проверки региональной выдачи, цен и рекламы, сбора данных и тестов.</li>
+        <li><b>Генеративные медиа:</b> пайплайн вертикальных видео на открытой модели Wan 2.2 и ComfyUI на своём GPU, генерация фото и доставка готового результата через Telegram-бота.</li>
+        <li><b>Почтовая инфраструктура под ключ:</b> CLI поднимает и настраивает mail-сервер с доменами и ящиками, проверено живым деплоем — письмо приходит в inbox Gmail с прошедшими SPF, DKIM и DMARC.</li>
+        <li><b>Внедрение для клиента:</b> POC на Dify для HR-tech-сервиса — развернул платформу на своей виртуальной машине, собрал рабочее пространство на локальной модели и передал комплект команде клиента.</li>
+      </ul>
+      <p><b>Что это даёт:</b> гипотеза проверяется за часы и почти без бюджета, данные клиента не уходят в чужое облако, а стоимость одной операции измеряется копейками, а не счётом подрядчика.</p>
+    </div>
+  </div>
+  <div class="job" id="job1">
+    <div class="dates">12.2015 — настоящее время</div>
+    <div class="jbody">
+      <h3>Сооснователь / Co-founder · Head of GTM</h3>
+      <div class="org">IT-аутстаффинг-холдинг (NDA)</div>
+      <p>Построил и десять лет развивал систему привлечения для международного B2B-направления — продажи IT-специалистов и команд компаниям по всему миру: сбор и обогащение данных, собственная почтовая инфраструктура, каденции, квалификация в CRM, передача прогретых лидов в продажи.</p>
+      <div class="sub"><b>ИИ и автоматизация в контуре:</b></div>
+      <ul>
+        <li>AI-контур исследований и обогащения построил с нуля, на своём железе: 12 исследовательских модулей на Python, 8 источников данных, <b>93% вызовов моделей локально</b>.</li>
+        <li>CRM Close выстроил сам с нуля: двенадцать статусов лида и правила перехода, автоворонки, интеграции по API. Разбор ответов, классификацию и обогащение базы, простановку статусов автоматизировал с помощью моделей, Python и n8n.</li>
+        <li>Обогащение и классификация базы моделями: язык и письменность имени, страна компании, признак экспата и русскоязычности — на этом строилась сегментация кампаний по гео и языку.</li>
+        <li>Зеркало CRM в PostgreSQL для аналитики без нагрузки на рабочую систему; классы доставляемости по <b>31,18 млн</b> адресов лидов.</li>
+        <li>Интеграции: поставщики поисковых данных, сбор профилей через Apify, автоматические выгрузки в таблицы и отчёты в Telegram.</li>
+      </ul>
+      <div class="sub"><b>B2B-продажи и результат:</b></div>
+      <ul>
+        <li>Из контура дошли до договорных стадий <b>Microsoft, NVIDIA, Deloitte, Nokia, Huawei, Ericsson, Philips, PwC, Mercedes-Benz, Toyota, Lenovo</b>; в тендерах — Accenture, IBM, Siemens. В этих четырнадцати брендах 116 квалифицированных лидов (MQL → SQL) из сорока страновых юрлиц.</li>
+        <li>Воронка до контракта за 2018–2026: 220 630 проконтактированных компаний → 19 086 квалифицированных лидов → 858 сделок на договорных стадиях → <b>258 компаний доведены до производства</b> (договор заключён, начат подбор специалистов). Медианный путь от первого исходящего письма до договора — 3,6 месяца.</li>
+        <li><b>Бюджет контура — до 25 млн ₽/год на пике:</b> закупка данных, инфраструктура, подрядчики и сервисы. Планировал по статьям, обосновывал под целевые показатели, отчитывался по факту.</li>
+        <li>Юнит-экономика как рабочий инструмент: считал прямые расходы на лид, принятый продажами, и отключал сегменты, где результат обходился <b>в шесть-восемь раз дороже</b> рабочих.</li>
+        <li>Экономика закупки данных: за 15 месяцев объём <b>×6</b> при росте бюджета в 1,8 раза, цена единицы −70%, <b>экономия 35,8 млн ₽</b> относительно стартовой цены.</li>
+        <li>Пайплайн тестирования гипотез — <b>5 697 флайтов</b> «продукт × гео × отрасль × размер компании × роль ЛПР»; решение о продолжении — по цене результата.</li>
+        <li>География: компании из <b>171 страны</b>, сделки открывались в 133, кампании на шести языках.</li>
+      </ul>
+      <p>Команда: шесть специалистов за период, 3–4 одновременно, оформление через подряд и ИП. Нанимал, обучал, ставил KPI, принимал работу. Отвечал за pipeline и цену результата перед C-level.</p>
+    </div>
+  </div>
+  <div class="job" id="job2">
+    <div class="dates">2018 — 2020</div>
+    <div class="jbody">
+      <h3>Сооснователь / Co-founder · Product/Growth Lead (параллельно)</h3>
+      <div class="org">WhatWhere (глобальная events-платформа)</div>
+      <p>Международный проект: каталог событий городов мира, собираемый из социальных сетей, клиенты в России, США, Канаде, Черногории и Израиле, биллинг через PayPal.</p>
+      <ul>
+        <li><b>Self-service B2B SaaS для малого бизнеса с тарифной сеткой:</b> AI-настройка рекламной кампании (нейросети) вместо агентства, запуск за 10 минут; монетизация — комиссия от рекламного бюджета от 30% плюс подписка.</li>
+        <li>Когортная воронка активации: 78 регистраций → 64 активных (82%) → 36 создали событие.</li>
+        <li>Growth-машина с нуля: в пиковый месяц 124 953 собранных контакта и 421 652 письма; воронка месяца — 2 738 квалифицированных лидов → 82 продажи.</li>
+        <li>Три новых продуктовых контура за год: продажа билетов через интеграцию с внешним провайдером, маркетплейс исполнителей, бартерная программа обмена трафиком.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job" id="job3">
+    <div class="dates">06.2013 — 10.2016</div>
+    <div class="jbody">
+      <h3>Руководитель платного трафика, SEO и лидогенерации (внешний консультант)</h3>
+      <div class="org">Чойстер (агрегатор недвижимости)</div>
+      <p>Отвечал за трафик и его монетизацию: лиды и звонки, продаваемые застройщикам, продуктовое SEO на миллионах страниц, медийная монетизация.</p>
+      <ul>
+        <li><b>Продажи B2B:</b> 500+ рекламодателей, застройщики первого эшелона — ПИК, ЛСР, Эталон, ФСК «Лидер», MR Group, Донстрой; продавал 17 медийным агентствам; выручка направления <b>1,4–3,8 млн ₽/мес</b>, 691 договор.</li>
+        <li><b>Самообслуживаемый лид-маркетплейс</b> (2016): покупка звонков по таргетингу, пакетные лимиты, антифрод, критерий качества — звонок от 30 секунд.</li>
+        <li>Себестоимость звонка <b>10 000 → 3 500 ₽</b> на лучших связках; трафик <b>78 тыс. → 3,47 млн визитов/мес</b>.</li>
+        <li>Технический контур монетизации: собственный ad-server (AdFox) и SSP — 529 баннеромест, 21 DSP-покупатель в аукционе; колтрекинг с ценой звонка по 20+ площадкам; нашёл утечку атрибуции 20–40% звонков.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job" id="job4">
+    <div class="dates">2009 — 2011</div>
+    <div class="jbody">
+      <h3>Руководитель техподдержки хостинга</h3>
+      <div class="org">TEL / NTHost</div>
+      <p>Руководил технической поддержкой хостинг-провайдера.</p>
+    </div>
+  </div>
+  <div class="job" id="job5">
+    <div class="dates">2013 — 2025</div>
+    <div class="jbody">
+      <h3>Клиентские проекты: performance, GTM и аналитика (параллельно)</h3>
+      <ul>
+        <li><b>ЦИАН, 2023:</b> SEO-аудит всех продуктовых вертикалей по договору ИП — доступ уровня владельца к 12 региональным поддоменам, Метрике, Google Search Console и логам. Отчёт принят и оплачен.</li>
+        <li><b>Visabot (США, immigration-tech):</b> ИИ-бот в Facebook Messenger, собиравший пакет документов на грин-карту за $150 вместо адвоката; отвечал за платное привлечение. Диагноз «покупают пришедшие из прессы» развернул канал: за шесть дней — с 60 заявок по $2 до 434 контактов, цена лида ~$1.</li>
+        <li><b>Solar Staff:</b> стратегия выхода на рынок США и аутбаунд-пилот на 46 тыс. писем — open rate 8,72% → 18,36%, reply rate 0,14% → 0,80%.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="job" id="job6">
+    <div class="dates">2004 — 2013</div>
+    <div class="jbody">
+      <h3>Интернет-маркетинг под ключ (внешний исполнитель)</h3>
+      <div class="org">Промышленность и строительство</div>
+      <p>Орловский производитель промышленного оборудования вышел через сайт на Москву и поставлял в <b>52 региона России</b>: структура и каталог, семантика, тексты, вывод в поиск, поддержка.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Ключевые навыки</h2>
+  <div class="chips"><span class="chip">Внедрение ИИ</span><span class="chip">LLM</span><span class="chip">RAG</span><span class="chip">AI-агенты</span><span class="chip">Prompt engineering</span><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">API-интеграции</span><span class="chip">n8n</span><span class="chip">Автоматизация бизнес-процессов</span><span class="chip">Анализ бизнес-процессов</span><span class="chip">Linux</span><span class="chip">Администрирование серверов Linux</span><span class="chip">DevOps</span><span class="chip">Proxmox</span><span class="chip">Docker</span><span class="chip">vLLM</span><span class="chip">PostgreSQL</span><span class="chip">Grafana</span><span class="chip">Ansible</span><span class="chip">MikroTik</span><span class="chip">WireGuard</span><span class="chip">Настройка DNS</span><span class="chip">Управление проектами</span><span class="chip">Проведение презентаций</span><span class="chip">Активные продажи</span><span class="chip">Резервное копирование</span><span class="chip">Playwright</span><span class="chip">CRM</span><span class="chip">B2B Продажи</span><span class="chip">Развитие бизнеса</span><span class="chip">Поиск и привлечение клиентов</span><span class="chip">Лидогенерация</span><span class="chip">Ведение переговоров</span><span class="chip">Пресейл</span><span class="chip">Go-to-Market Strategy</span><span class="chip">Юнит-экономика</span><span class="chip">Управление командой</span></div>
+  <a class="cta" href="mailto:nikita@kudrin.net?subject=Внедрение ИИ / развитие бизнеса AI — обсудить роль">Написать — обсудить роль</a>
+</div></section>
+
+<section id="edu"><div class="wrap">
+  <h2>Образование</h2>
+  <div class="job">
+    <div class="dates">2008</div>
+    <h3>«Прикладная информатика в экономике»</h3>
+    <div class="org">РГУИТП — Российский государственный университет инновационных технологий и предпринимательства, Москва</div>
+  </div>
+  <div class="job">
+    <div class="dates">2009 — 2010 · повышение квалификации</div>
+    <h3>«Менеджмент в сфере интернет-технологий»</h3>
+    <div class="org">RMA</div>
+  </div>
+</div></section>
+
+<footer><div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px">
+  <span>© 2026 Никита Кудрин · обновлено 2026-11-16</span>
+  <span class="alt">Профиль в маркетинге и росте — <a href="../">cv.kudrin.net</a></span>
+</div></footer>
+</body>
+</html>
